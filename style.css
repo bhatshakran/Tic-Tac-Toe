@@ -1,0 +1,52 @@
+
+h3{
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.playerDisplay{
+    position: absolute;
+    top: 20px;
+}
+
+
+.grid{
+    width: 220px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    margin-left: 300px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.square{
+    background: white;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.mark{
+    background-image: url(cross.png);
+    background-size: cover;
+}
+
+.zero{
+    background-image: url(zero.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.winner{
+    margin-top: 60px;
+    margin-left: 300px;
+    color: red;
+}
